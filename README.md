@@ -4,7 +4,7 @@ This project is a refactoring of the [Calculator built with JavaScript Factory F
 
 ## Project Link
 
-**coming soon**
+https://calculator-js-constructor-function.netlify.app/
 
 ## Screenshot
 
