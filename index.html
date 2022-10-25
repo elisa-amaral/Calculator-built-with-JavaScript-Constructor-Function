@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator built with JavaScript Constructor Function</title>
+    <link rel="shortcut icon" href="./assets/img/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <section class="container">
+        <div id="calculatorContainer">
+            <div id="header">
+                <img src="assets/img/logo.svg" alt="Calculator">
+                <h1>Calculator</h1>
+            </div>
+            <table class="calculator">
+                <tr>
+                    <td colspan="4"><input type="text" class="display"></td>
+                </tr>
+                <tr>
+                    <td><button class="btn clear">C</button></td>
+                    <td><button class="btn operation-value">(</button></td>
+                    <td><button class="btn operation-value">)</button></td>
+                    <td><button class="btn operation-value">/</button></td>
+                </tr>
+                <tr>
+                    <td><button class="btn operation-value">7</button></td>
+                    <td><button class="btn operation-value">8</button></td>
+                    <td><button class="btn operation-value">9</button></td>
+                    <td><button class="btn operation-value">*</button></td>
+                </tr>
+                <tr>
+                    <td><button class="btn operation-value">4</button></td>
+                    <td><button class="btn operation-value">5</button></td>
+                    <td><button class="btn operation-value">6</button></td>
+                    <td><button class="btn operation-value">+</button></td>
+                </tr>
+                <tr>
+                    <td><button class="btn operation-value">1</button></td>
+                    <td><button class="btn operation-value">2</button></td>
+                    <td><button class="btn operation-value">3</button></td>
+                    <td><button class="btn operation-value">-</button></td>
+                </tr>
+                <tr>
+                    <td><button class="btn operation-value separator">.</button></td>
+                    <td><button class="btn operation-value">0</button></td>
+                    <td><button class="btn backspace">&laquo;</button></td>
+                    <td><button class="btn equals">=</button></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>Built with <span id="heartEntity">&#10084;</span> by <a href="https://beacons.ai/elisa_amaral"
+            target="_blank">Elisa Amaral</a></p>
+    </footer>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
