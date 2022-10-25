@@ -8,7 +8,7 @@ https://calculator-js-constructor-function.netlify.app/
 
 ## Screenshot
 
-![Screenshot](assets/img/Screenshot.jpg)
+![Screenshot](assets/img/Screenshot.png)
 
 ## Technology Stack
 
