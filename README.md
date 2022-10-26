@@ -13,5 +13,6 @@ https://calculator-js-constructor-function.netlify.app/
 ## Technology Stack
 
 + JavaScript
-+ CSS
 + HTML
++ CSS
+
